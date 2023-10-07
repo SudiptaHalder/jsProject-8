@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #E4F1FF;
+    background-image:url(./image/8c0d3811-ca4b-4b9b-8b16-846b6482c748-removebg-preview.png);
+    
+    height: 100%;
+    background-repeat: no-repeat;
+   
+    
+
+}
+#game{
+    height: 580px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background:url(./image/Pista.jpg) ;
+    background-size: contain;
+    overflow: hidden;
+    
+    
+}
+
+
+#bluecar{
+    height: 100px;
+    width: 130px;
+    background-color: ;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move .8s linear  infinite  ;
+
+}
+#bluecar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+#racecar{
+    height: 100px;
+    width: 130px;
+    background-color: ;
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+}
+#racecar img{
+    height: 100px;
+}
+
+#result{
+    height: 500px;
+    width: 800px;
+    background-color: #132043;
+    margin:  1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:none ;
+}
+#score{
+    margin-top:20px;
+    font-size: 2.2rem;
+    color: #F0F0F0;
+}
+#btn{
+    
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #3085C3;
+    color: #F4E869;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.accident{
+   
+    height:200px;
+    width:300px;
+    margin-left:60px;
+}
